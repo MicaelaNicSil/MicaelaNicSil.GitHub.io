@@ -276,7 +276,119 @@
     grid-template-columns: 25px 1fr;
   }
 }
-@media only screen and (max-width: 1432px) and (min-width: 600px) {
+@media only screen and (max-width: 1070px) and (min-width: 600px) {
+  .section-home {
+    padding-bottom: 8rem;
+  }
+
+  header {
+    padding-bottom: 0%;
+  }
+
+  .cat_paws {
+    visibility: collapse;
+  }
+
+  .nav.close {
+    width: 130px;
+  }
+  .nav.close span {
+    visibility: collapse;
+  }
+  .nav.close ul {
+    align-items: center;
+    left: 0;
+  }
+  .nav.close ul li {
+    width: 130px;
+  }
+  .nav.close li:hover {
+    background-color: var(--color-green2);
+  }
+  .nav.close a {
+    padding-left: 20%;
+    text-align: center;
+  }
+  .nav.close .ic i {
+    font-size: 4vh;
+    text-align: center;
+    margin: 0vh 0vh;
+    flex-direction: unset;
+    background-color: transparent !important;
+  }
+  .nav.close div.nav-social {
+    text-align: center;
+  }
+
+  .fa-circle-arrow-right {
+    display: collapse;
+    opacity: 0%;
+  }
+
+  .section-about {
+    padding: 3rem 1rem 0rem 1rem;
+  }
+  .section-about .work .media .fa {
+    margin-right: 0px;
+  }
+  .section-about .work .rowb {
+    background-color: chocolate;
+    text-align: center;
+    margin: 2vh 2vh 2vh 2vh;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .o-shape {
+    height: 100%;
+    position: flex;
+  }
+
+  .skills-section {
+    padding-top: 6rem;
+  }
+  .skills-section div.row {
+    padding: 1.2rem 2rem 1rem 2rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.2rem;
+  }
+  .skills-section div.row .text-row {
+    text-align: left;
+  }
+  .skills-section .circles {
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 34rem;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills-section .circles div.col {
+    align-items: center;
+    width: 180px;
+  }
+  .skills-section .circles .services {
+    width: 180px;
+  }
+  .skills-section .circles .service-wrap {
+    width: 180px;
+    height: 180px;
+  }
+  .skills-section .circles .service-wrap p {
+    display: collapse;
+    opacity: 0%;
+  }
+
+  .portfolio-section .portfolios {
+    grid-template-columns: repeat(2, 3fr);
+    width: 40rem;
+    grid-gap: 1.5rem;
+  }
+}
+@media only screen and (max-width: 1432px) and (min-width: 1200px) {
+  .cat_paws {
+    visibility: collapse;
+  }
+
   header {
     text-align: center;
   }
@@ -291,54 +403,77 @@
     text-align: center;
   }
 
+  .nav.close {
+    width: 130px;
+  }
+  .nav.close span {
+    visibility: collapse;
+  }
+  .nav.close ul {
+    align-items: center;
+    left: 0;
+  }
+  .nav.close ul li {
+    width: 130px;
+  }
+  .nav.close li:hover {
+    background-color: var(--color-green2);
+  }
+  .nav.close a {
+    padding-left: 20%;
+    text-align: center;
+  }
+  .nav.close .ic i {
+    text-align: center;
+    margin: 0vh 0vh;
+    flex-direction: unset;
+    background-color: transparent !important;
+  }
+  .nav.close div.nav-social {
+    text-align: center;
+  }
+
   .fa-circle-arrow-right {
     display: collapse;
     opacity: 0%;
   }
 
   .section-about {
-    padding: 3rem 1rem 9rem 1rem;
-  }
-  .section-about .rowb {
-    margin: 0 0;
-    padding: 0rem 0rem;
-    width: 40rem;
+    padding: 3rem 1rem 7rem 1rem;
   }
   .section-about .work .media .fa {
     margin-right: 0px;
   }
+  .section-about .work .rowb {
+    text-align: center;
+    margin: 2vh 2vh 2vh 2vh;
+    padding: 0rem 0rem 0rem 0rem;
+  }
 
   .o-shape {
-    height: 110%;
+    height: 80%;
   }
 
-  .skills-section {
-    margin: 5rem 5rem;
+  .skills-section .row {
+    margin-right: 3rem;
   }
-  .skills-section div.row {
-    padding: 1.2rem 2rem 1rem 2rem;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 1.2rem;
-  }
-  .skills-section div.row .text-row {
-    text-align: left;
-  }
-  .skills-section .icon {
-    width: 5.875rem;
-    height: 5.25rem;
+  .skills-section div.row .text-top {
+    padding-top: 20px;
   }
   .skills-section .circles {
-    width: 100%;
-    height: 34rem;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
   }
   .skills-section .circles .service-wrap {
-    width: 170px;
-    height: 170px;
+    width: 180px;
+    height: 180px;
   }
   .skills-section .circles .service-wrap p {
     display: collapse;
     opacity: 0%;
+  }
+
+  .contact-me-section .right-contact {
+    width: 10rem;
   }
 }/*# sourceMappingURL=media_query.css.map */
